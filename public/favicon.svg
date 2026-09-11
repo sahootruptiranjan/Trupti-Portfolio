@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="trsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D9C0" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0B0F1A" />
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="url(#trsGrad)" stroke-width="2.5" opacity="0.8" />
+  <!-- Data Chart Graphic Accent -->
+  <path d="M16 44 L26 34 L36 39 L48 24" fill="none" stroke="#00D9C0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" />
+  <!-- Monogram TRS -->
+  <text x="32" y="41" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" fill="url(#trsGrad)" text-anchor="middle" letter-spacing="1">TRS</text>
+</svg>
