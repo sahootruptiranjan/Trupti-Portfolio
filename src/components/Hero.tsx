@@ -27,10 +27,10 @@ export const Hero: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Column: Headline, Rotating Role, Bio, CTAs */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
-            
+
             {/* Status Pill */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-accent-cyan/30 bg-accent-cyan/10 text-accent-cyan text-xs font-mono font-medium tracking-wide mb-6">
               <span className="w-2 h-2 rounded-full bg-accent-cyan animate-pulse" />
@@ -49,10 +49,9 @@ export const Hero: React.FC = () => {
             <div className="h-9 mb-6 flex items-center">
               <span className="text-lg sm:text-2xl font-mono text-slate-600 dark:text-slate-300 font-semibold flex items-center gap-2">
                 <span className="text-accent-cyan">&gt;</span>
-                <span 
-                  className={`inline-block transition-all duration-300 transform ${
-                    fadeState === 'in' ? 'opacity-100 translate-y-0 text-slate-900 dark:text-white' : 'opacity-0 -translate-y-2 text-slate-400'
-                  }`}
+                <span
+                  className={`inline-block transition-all duration-300 transform ${fadeState === 'in' ? 'opacity-100 translate-y-0 text-slate-900 dark:text-white' : 'opacity-0 -translate-y-2 text-slate-400'
+                    }`}
                 >
                   {personalInfo.roles[roleIndex]}
                 </span>
@@ -122,10 +121,10 @@ export const Hero: React.FC = () => {
           {/* Right Column: Headshot Photo + Floating Micro-Cards */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end relative">
             <div className="relative w-full max-w-[380px] sm:max-w-[420px]">
-              
+
               {/* Backing Frame & Glow */}
               <div className="absolute -inset-2 bg-gradient-to-tr from-accent-cyan/30 via-teal-500/10 to-accent-amber/20 rounded-3xl blur-xl opacity-70" />
-              
+
               {/* Photo Card Container */}
               <div className="relative rounded-2xl overflow-hidden border border-slate-200/80 dark:border-slate-700/80 bg-white dark:bg-slate-900 shadow-xl shadow-slate-900/10 dark:shadow-black/40">
                 <div className="aspect-[4/4.5] w-full overflow-hidden bg-slate-100 dark:bg-slate-800 relative">
@@ -137,7 +136,7 @@ export const Hero: React.FC = () => {
                   />
                   {/* Subtle Dark Gradient Overlay at Base */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
-                  
+
                   {/* Photo Caption Badge */}
                   <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between px-3 py-1.5 rounded-lg bg-slate-900/80 backdrop-blur-md border border-slate-700/60 text-[11px] font-mono text-slate-300">
                     <span className="flex items-center gap-1.5 text-accent-cyan">
