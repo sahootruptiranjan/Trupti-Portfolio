@@ -135,6 +135,47 @@ export const certificationsList: CertificationItem[] = [
 
 export const projectsList: ProjectItem[] = [
   {
+    id: "intern-performance-analytics-dashboard",
+    title: "Intern Performance Analytics Dashboard",
+    subtitle: "Cohort Readiness, Evaluation Pillars & BI Intelligence Platform",
+    badge: "FEATURED PROJECT",
+    isFlagship: true,
+    status: "Completed",
+    description: "An end-to-end business intelligence platform designed to evaluate intern cohorts across attendance, task turnaround, mentor assessments, and conversion readiness.",
+    bullets: [
+      "Synthesized multi-dimensional evaluation records via an automated Python data generation pipeline.",
+      "Architected a normalized MySQL 8.0 Star Schema comprising 4 dimension tables and 4 granular fact tables.",
+      "Engineered custom DAX measures for weighted scoring models, cohort benchmarks, and conversion flags.",
+      "Developed an interactive executive Power BI dashboard delivering cross-pillar workforce intelligence."
+    ],
+    processSteps: [
+      {
+        step: "01",
+        title: "Synthetic Data Pipeline",
+        detail: "Engineered Python pipelines to generate multi-pillar intern cohort evaluation datasets."
+      },
+      {
+        step: "02",
+        title: "Star Schema Warehouse",
+        detail: "Designed normalized MySQL tables with foreign key constraints, indexes, and dimension integrity."
+      },
+      {
+        step: "03",
+        title: "DAX Modeling & Intelligence",
+        detail: "Built core KPI measures, dynamic benchmarks, and automated performance tier logic."
+      },
+      {
+        step: "04",
+        title: "Executive Report Delivery",
+        detail: "Delivered interactive KPI views paired with a formal PDF executive findings report."
+      }
+    ],
+    tags: ["Power BI", "DAX", "MySQL", "Python", "Star Schema", "ETL Pipeline"],
+    codeUrl: "https://github.com/sahootruptiranjan/intern-performance-analytics-dashboard",
+    liveUrl: "https://raw.githubusercontent.com/sahootruptiranjan/intern-performance-analytics-dashboard/main/docs/Intern%20Performance%20Analytics%20Dashboard.pdf",
+    liveStatusText: "Executive Report (PDF)"
+  },
+  {
     id: "zomato-restaurant-data-analysis",
     title: "Zomato Restaurant Data Analysis",
     subtitle: "End-to-End Exploratory Data Analysis, Data Cleaning & BI Dashboard Pipeline",
